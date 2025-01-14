@@ -1,28 +1,6 @@
-<style>
-.circular_image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: blue;
-  /* commented for demo
-  float: left;
-  margin-left: 125px;
-  margin-top: 20px;
-  */
-  
-  /*for demo*/
-  display:inline-block;
-  vertical-align:middle;
-}
-.circular_image img{
-  width:100%;
-}
-</style>
-
 <h1 align="center">
     <br>
-    <img class="circular_image" src="./imgs/starting_lattice2.png" alt="RCC1" width="200">
+    <img src="./imgs/github_repo_logo.png" alt="RCC1" width="200">
     <br>
     RCC1-IM-NTf2
     <br>
