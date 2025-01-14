@@ -1,0 +1,13 @@
+import "cage.lt"
+import "neutral_cage_1_tfn2_6.lt"
+
+neut = new neutral [4].move(25.00, 0.00, 0.00)
+                   [4].move(0.00, 25.00, 0.00)
+                   [3].move(0.00, 0.00, 25.00)
+
+write_once("Data Boundary") {
+  0.0 75.00 xlo xhi
+  0.0 75.00 ylo yhi
+  0.0 75.00 zlo zhi
+}
+

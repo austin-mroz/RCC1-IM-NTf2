@@ -1,0 +1,9 @@
+import "tfn2.lt"
+
+tfn2_6 {
+    tfn2_1 = new tfn2 [2].move(17.00, 0.00, 0.00)
+                      [2].move(0.00, 16.00, 0.00)
+    tfn2_2 = new tfn2.move(0.00, 0.00, 10.00)
+    tfn2_3 = new tfn2.move(18.00, 18.00, 15.00)
+
+}

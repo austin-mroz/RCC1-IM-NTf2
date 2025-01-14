@@ -1,0 +1,257 @@
+    pair_coeff @/atom:rcc1/CT1 @/atom:rcc1/CT1 lj/cut/coul/long 0.015774 3.500000
+    pair_coeff @/atom:rcc1/CA1 @/atom:rcc1/CA1 lj/cut/coul/long 0.070005 3.550000
+    pair_coeff @/atom:rcc1/CT7 @/atom:rcc1/CT7 lj/cut/coul/long 0.015774 3.500000
+    pair_coeff @/atom:rcc1/NI1 @/atom:rcc1/NI1 lj/cut/coul/long 0.040631 3.250000
+    pair_coeff @/atom:rcc1/CI1 @/atom:rcc1/CI1 lj/cut/coul/long 0.016730 3.550000
+    pair_coeff @/atom:rcc1/CI2 @/atom:rcc1/CI2 lj/cut/coul/long 0.016730 3.550000
+    pair_coeff @/atom:rcc1/NI2 @/atom:rcc1/NI2 lj/cut/coul/long 0.040631 3.250000
+    pair_coeff @/atom:rcc1/CT2 @/atom:rcc1/CT2 lj/cut/coul/long 0.015774 3.500000
+    pair_coeff @/atom:rcc1/CT3 @/atom:rcc1/CT3 lj/cut/coul/long 0.015774 3.500000
+    pair_coeff @/atom:rcc1/CT4 @/atom:rcc1/CT4 lj/cut/coul/long 0.015774 3.500000
+    pair_coeff @/atom:rcc1/OY @/atom:rcc1/OY lj/cut/coul/long 0.140010 2.900000
+    pair_coeff @/atom:rcc1/CA2 @/atom:rcc1/CA2 lj/cut/coul/long 0.016730 3.550000
+    pair_coeff @/atom:rcc1/CA @/atom:rcc1/CA lj/cut/coul/long 0.016730 3.550000
+    pair_coeff @/atom:rcc1/CT5 @/atom:rcc1/CT5 lj/cut/coul/long 0.015774 3.500000
+    pair_coeff @/atom:rcc1/NT @/atom:rcc1/NT lj/cut/coul/long 0.040631 3.300000
+    pair_coeff @/atom:rcc1/CT6 @/atom:rcc1/CT6 lj/cut/coul/long 0.065989 3.500000
+    pair_coeff @/atom:rcc1/CR @/atom:rcc1/CR lj/cut/coul/long 0.016730 3.550000
+    pair_coeff @/atom:rcc1/HC @/atom:rcc1/HC lj/cut/coul/long 0.003585 2.500000
+    pair_coeff @/atom:rcc1/HA @/atom:rcc1/HA lj/cut/coul/long 0.029995 2.420000
+    bond_coeff @/bond:rcc1/type1 317.005258 1.510000
+    bond_coeff @/bond:rcc1/type2 382.002868 1.448000
+    bond_coeff @/bond:rcc1/type3 340.000000 1.090000
+    bond_coeff @/bond:rcc1/type4 468.999761 1.400000
+    bond_coeff @/bond:rcc1/type5 367.000478 1.080000
+    bond_coeff @/bond:rcc1/type6 336.998088 1.466000
+    bond_coeff @/bond:rcc1/type7 339.985660 1.090000
+    bond_coeff @/bond:rcc1/type8 427.103250 1.378000
+    bond_coeff @/bond:rcc1/type9 477.055449 1.315000
+    bond_coeff @/bond:rcc1/type10 520.076482 1.341000
+    bond_coeff @/bond:rcc1/type11 339.985660 1.080000
+    bond_coeff @/bond:rcc1/type12 339.985660 1.080000
+    bond_coeff @/bond:rcc1/type13 427.103250 1.378000
+    bond_coeff @/bond:rcc1/type14 336.998088 1.466000
+    bond_coeff @/bond:rcc1/type15 477.055449 1.315000
+    bond_coeff @/bond:rcc1/type16 340.000000 1.090000
+    bond_coeff @/bond:rcc1/type17 267.999522 1.529000
+    bond_coeff @/bond:rcc1/type18 340.000000 1.090000
+    bond_coeff @/bond:rcc1/type19 267.999522 1.529000
+    bond_coeff @/bond:rcc1/type20 340.000000 1.090000
+    bond_coeff @/bond:rcc1/type21 320.004780 1.410000
+    bond_coeff @/bond:rcc1/type22 320.004780 1.410000
+    bond_coeff @/bond:rcc1/type23 469.000956 1.400000
+    bond_coeff @/bond:rcc1/type24 367.005258 1.080000
+    bond_coeff @/bond:rcc1/type25 468.999761 1.400000
+    bond_coeff @/bond:rcc1/type26 317.005258 1.510000
+    bond_coeff @/bond:rcc1/type27 340.000000 1.090000
+    bond_coeff @/bond:rcc1/type28 382.002868 1.448000
+    bond_coeff @/bond:rcc1/type29 382.002868 1.448000
+    bond_coeff @/bond:rcc1/type30 340.000000 1.090000
+    bond_coeff @/bond:rcc1/type31 520.076482 1.341000
+    bond_coeff @/bond:rcc1/type32 339.985660 1.080000
+    angle_coeff @/angle:rcc1/type1 56.202199 112.300000
+    angle_coeff @/angle:rcc1/type2 50.000000 109.500000
+    angle_coeff @/angle:rcc1/type3 35.002390 109.500000
+    angle_coeff @/angle:rcc1/type4 32.994742 107.800000
+    angle_coeff @/angle:rcc1/type5 70.004780 120.000000
+    angle_coeff @/angle:rcc1/type6 63.001912 120.000000
+    angle_coeff @/angle:rcc1/type7 35.002390 120.000000
+    angle_coeff @/angle:rcc1/type8 37.500000 110.700000
+    angle_coeff @/angle:rcc1/type9 32.994742 107.800000
+    angle_coeff @/angle:rcc1/type10 70.004780 125.600000
+    angle_coeff @/angle:rcc1/type11 70.004780 126.400000
+    angle_coeff @/angle:rcc1/type12 70.004780 108.000000
+    angle_coeff @/angle:rcc1/type13 70.004780 107.100000
+    angle_coeff @/angle:rcc1/type14 35.002390 122.000000
+    angle_coeff @/angle:rcc1/type15 35.002390 130.900000
+    angle_coeff @/angle:rcc1/type16 35.002390 130.900000
+    angle_coeff @/angle:rcc1/type17 70.004780 107.100000
+    angle_coeff @/angle:rcc1/type18 35.002390 122.000000
+    angle_coeff @/angle:rcc1/type19 70.004780 125.600000
+    angle_coeff @/angle:rcc1/type20 70.004780 108.000000
+    angle_coeff @/angle:rcc1/type21 70.004780 126.400000
+    angle_coeff @/angle:rcc1/type22 37.500000 110.700000
+    angle_coeff @/angle:rcc1/type23 58.353250 112.700000
+    angle_coeff @/angle:rcc1/type24 37.500000 110.700000
+    angle_coeff @/angle:rcc1/type25 32.994742 107.800000
+    angle_coeff @/angle:rcc1/type26 37.500000 110.700000
+    angle_coeff @/angle:rcc1/type27 58.353250 112.700000
+    angle_coeff @/angle:rcc1/type28 37.500000 110.700000
+    angle_coeff @/angle:rcc1/type29 32.994742 107.800000
+    angle_coeff @/angle:rcc1/type30 37.500000 110.700000
+    angle_coeff @/angle:rcc1/type31 50.000000 109.500000
+    angle_coeff @/angle:rcc1/type32 35.002390 109.500000
+    angle_coeff @/angle:rcc1/type33 32.994742 107.800000
+    angle_coeff @/angle:rcc1/type34 60.002390 111.000000
+    angle_coeff @/angle:rcc1/type35 50.000000 120.000000
+    angle_coeff @/angle:rcc1/type36 63.001912 120.000000
+    angle_coeff @/angle:rcc1/type37 35.002390 120.000000
+    angle_coeff @/angle:rcc1/type38 63.001912 120.000000
+    angle_coeff @/angle:rcc1/type39 35.002390 120.000000
+    angle_coeff @/angle:rcc1/type40 63.001912 120.000000
+    angle_coeff @/angle:rcc1/type41 70.004780 120.000000
+    angle_coeff @/angle:rcc1/type42 50.000000 109.500000
+    angle_coeff @/angle:rcc1/type43 58.353250 112.300000
+    angle_coeff @/angle:rcc1/type44 35.002390 109.500000
+    angle_coeff @/angle:rcc1/type45 58.353250 109.000000
+    angle_coeff @/angle:rcc1/type46 51.804493 107.200000
+    angle_coeff @/angle:rcc1/type47 51.804493 107.200000
+    angle_coeff @/angle:rcc1/type48 51.804493 107.200000
+    angle_coeff @/angle:rcc1/type49 35.002390 109.500000
+    angle_coeff @/angle:rcc1/type50 56.202199 109.500000
+    angle_coeff @/angle:rcc1/type51 32.994742 107.800000
+    angle_coeff @/angle:rcc1/type52 70.004780 109.800000
+    angle_coeff @/angle:rcc1/type53 35.002390 125.100000
+    angle_coeff @/angle:rcc1/type54 35.002390 125.100000
+    dihedral_coeff @/dihedral:rcc1/type1 0.000000 0.088671 0.066922 0.000000
+    dihedral_coeff @/dihedral:rcc1/type2 0.000000 0.000000 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type3 0.394837 -0.153442 0.487572 0.000000
+    dihedral_coeff @/dihedral:rcc1/type4 0.394837 -0.153442 0.487572 0.000000
+    dihedral_coeff @/dihedral:rcc1/type5 0.000000 0.000000 0.133843 0.000000
+    dihedral_coeff @/dihedral:rcc1/type6 0.000000 0.000000 0.133843 0.000000
+    dihedral_coeff @/dihedral:rcc1/type7 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type8 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type9 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type10 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type11 0.000000 0.000000 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type12 0.000000 0.000000 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type13 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type14 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type15 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type16 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type17 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type18 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type19 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type20 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type21 0.000000 2.569312 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type22 0.000000 2.569312 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type23 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type24 0.000000 2.569312 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type25 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type26 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type27 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type28 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type29 0.000000 0.000000 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type30 0.527008 0.007887 0.186902 0.000000
+    dihedral_coeff @/dihedral:rcc1/type31 0.000000 0.000000 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type32 0.527008 0.007887 0.186902 0.000000
+    dihedral_coeff @/dihedral:rcc1/type33 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type34 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type35 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type36 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type37 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type38 -0.308795 0.279159 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type39 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type40 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type41 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type42 0.299952 -0.147945 0.130497 0.000000
+    dihedral_coeff @/dihedral:rcc1/type43 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type44 0.000000 0.000000 0.111855 0.000000
+    dihedral_coeff @/dihedral:rcc1/type45 -0.157027 -0.171128 0.162285 0.000000
+    dihedral_coeff @/dihedral:rcc1/type46 0.000000 0.000000 0.038480 0.000000
+    dihedral_coeff @/dihedral:rcc1/type47 0.000000 0.935946 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type48 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type49 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type50 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type51 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type52 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type53 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type54 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type55 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type56 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type57 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type58 0.000000 1.732792 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type59 0.000000 0.000000 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type60 0.000000 0.088671 0.066922 0.000000
+    dihedral_coeff @/dihedral:rcc1/type61 0.394837 -0.153442 0.487572 0.000000
+    dihedral_coeff @/dihedral:rcc1/type62 0.394837 -0.153442 0.487572 0.000000
+    dihedral_coeff @/dihedral:rcc1/type63 0.000000 0.000000 0.133843 0.000000
+    dihedral_coeff @/dihedral:rcc1/type64 0.000000 0.000000 0.133843 0.000000
+    dihedral_coeff @/dihedral:rcc1/type65 0.110899 0.010038 0.119264 0.000000
+    dihedral_coeff @/dihedral:rcc1/type66 0.110899 0.010038 0.119264 0.000000
+    dihedral_coeff @/dihedral:rcc1/type67 0.000000 0.000000 0.133843 0.000000
+    dihedral_coeff @/dihedral:rcc1/type68 0.112094 0.009799 0.120698 0.000000
+    dihedral_coeff @/dihedral:rcc1/type69 0.000000 0.000000 0.133843 0.000000
+    dihedral_coeff @/dihedral:rcc1/type70 0.112094 0.009799 0.120698 0.000000
+    dihedral_coeff @/dihedral:rcc1/type71 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type72 0.271272 -0.036090 0.095602 0.000000
+    dihedral_coeff @/dihedral:rcc1/type73 0.000000 0.000000 0.071702 0.000000
+    dihedral_coeff @/dihedral:rcc1/type74 0.000000 1.912046 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type75 0.000000 0.525813 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type76 0.000000 1.912046 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type77 0.000000 0.525813 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type78 0.000000 0.525813 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type79 0.000000 1.912046 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type80 0.000000 1.912046 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type81 0.000000 0.525813 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type82 0.000000 0.525813 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type83 0.000000 1.912046 0.000000 0.000000
+    dihedral_coeff @/dihedral:rcc1/type84 0.000000 0.525813 0.000000 0.000000
+    pair_coeff @/atom:tfn2/CBT @/atom:tfn2/CBT lj/cut/coul/long 0.065999 3.500000
+    pair_coeff @/atom:tfn2/SBT @/atom:tfn2/SBT lj/cut/coul/long 0.250000 3.550000
+    pair_coeff @/atom:tfn2/OBT @/atom:tfn2/OBT lj/cut/coul/long 0.200134 3.150000
+    pair_coeff @/atom:tfn2/F1 @/atom:tfn2/F1 lj/cut/coul/long 0.061042 3.118000
+    pair_coeff @/atom:tfn2/NBT @/atom:tfn2/NBT lj/cut/coul/long 0.170000 3.250000
+    bond_coeff @/bond:tfn2/type1 233.030593 1.818000
+    bond_coeff @/bond:tfn2/type2 441.921606 1.323000
+    bond_coeff @/bond:tfn2/type3 374.880497 1.570000
+    bond_coeff @/bond:tfn2/type4 637.069790 1.437000
+    angle_coeff @/angle:tfn2/type1 82.934990 111.700000
+    angle_coeff @/angle:tfn2/type2 93.331740 107.100000
+    angle_coeff @/angle:tfn2/type3 91.300191 103.500000
+    angle_coeff @/angle:tfn2/type4 103.967495 102.600000
+    angle_coeff @/angle:tfn2/type5 94.287763 113.600000
+    angle_coeff @/angle:tfn2/type6 115.798279 118.500000
+    angle_coeff @/angle:tfn2/type7 80.186424 125.600000
+    dihedral_coeff @/dihedral:tfn2/type1 0.000000 0.000000 0.315966 0.000000
+    dihedral_coeff @/dihedral:tfn2/type2 0.000000 0.000000 0.346797 0.000000
+    dihedral_coeff @/dihedral:tfn2/type3 7.832935 -2.490440 -0.763623 0.000000
+    dihedral_coeff @/dihedral:tfn2/type4 0.000000 0.000000 -0.003585 0.000000
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32
+    fix SHAKE all shake 0.0001 20 0 b @/bond:rcc1/type3 @/bond:rcc1/type5 @/bond:rcc1/type7 @/bond:rcc1/type11 @/bond:rcc1/type12 @/bond:rcc1/type16 @/bond:rcc1/type18 @/bond:rcc1/type20 @/bond:rcc1/type24 @/bond:rcc1/type27 @/bond:rcc1/type30 @/bond:rcc1/type32

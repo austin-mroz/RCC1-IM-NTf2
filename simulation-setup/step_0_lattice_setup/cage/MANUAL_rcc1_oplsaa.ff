@@ -1,0 +1,321 @@
+# oplsaa.ff, version 2023/03/10
+# units: kJ/mol, A, deg
+# bond and angle force constants are in the form k/2 (x - x0)^2
+# use cons for constrained bonds and angles
+# improper dihedrals are relative to the third atom in the list
+
+ATOMS
+#     typ   m/u     q/e    pot   pars
+CT1  CT1  12.011  0.2050  lj    3.50   0.0660
+CA   CA   12.011  -0.115  lj    3.55   0.0700
+NI1  NI1  14.007  0.1500  lj    3.25   0.1700
+CI1  CI1  12.011  -0.130  lj    3.55   0.0700
+CI2  CI2  12.011  -0.130  lj    3.55   0.0700
+NI2  NI2  14.007  0.1500  lj    3.25   0.1700
+CT2  CT2  12.011  0.0025  lj    3.50   0.0660
+CT3  CT3  12.011  -0.120  lj    3.50   0.0660
+CT4  CT4  12.011  0.1400  lj    3.50   0.0660
+OY   OY   15.999  -0.400  lj    2.90   0.5858
+CA2  CA2  12.011  0.0850  lj    3.55   0.0700
+CT5  CT5  12.011  0.4750  lj    3.50   0.0660
+NT   NT   14.007  -0.630  lj    3.30   0.1700
+CT6  CT6  12.011  0.0037  lj    3.50   0.2761
+CR   CR   12.011  0.1900  lj    3.55   0.0700
+CT7  CT7  12.011  0.0575  lj    3.50   0.0660
+HC   HC   1.0080  0.0600  lj    2.50   0.0150
+HA   HA   1.0080  0.1594  lj    2.42   0.1255
+CA1  CA1  12.011  -0.14175  lj    3.55   0.2929
+
+BONDS
+# i j    pot    re/A    kr/kJmol-1
+# alkanes OPLS-AA JACS 118(1996)11225, JPC 100(1996)18010
+CT1  HC   cons   1.090   2845.12
+NI1  CR    harm   1.315   3992.0
+CT1  NI1   harm   1.510   2653.0
+CR   HA    cons   1.080   2845.0
+NI1  CI1   harm   1.378   3574.0
+NI2  CR    harm   1.315   3992.0
+CI1  HA    cons   1.080   2845.0
+NI2  CT2   harm   1.466   2820.0
+CI1  CI2   harm   1.341   4352.0
+CT2  HC    cons   1.090   2845.12
+CI2  HA    cons   1.080   2845.0
+CT2  CT3   harm   1.529   2242.62
+CI2  NI2   harm   1.378   3574.0
+CT3  HC    cons   1.090   2845.12
+CT4  HC    cons   1.090   2845.12
+CT3  CT4   harm   1.529   2242.62
+CT4  OY    harm   1.410   2677.8
+OY   CA2   harm   1.410   2677.8
+CA2  CA    harm   1.400   3924.6
+CA   HA    cons   1.080   3071.1
+CA   CT5   harm   1.510   2652.7
+CT5  HC    cons   1.090   2845.12
+CT5  NT    harm   1.448   3196.6
+NT   CT6   harm   1.448   3196.6
+NT   CT1   harm   1.448   3196.6
+CA   CA    harm   1.400   3924.59
+CT6  HC    cons   1.090   2845.12
+CT1  CA1   harm   1.510   2652.7
+CA1  CA1   harm   1.400   3924.59
+CA1  HA   cons   1.080   3071.06
+CT7  NI1  harm   1.466   2820.0
+CT7  HC   cons   1.090   2845.0
+CT6  CT6  harm   1.341   4352.0
+
+ANGLES
+# i j   k    pot    th/deg  ka/kjmol-1
+HC  CT1 NI1   harm   110.7   313.8
+HA  CI1 CI2   harm   130.9   292.9
+CT1 NI1 CR    harm   126.4   585.8
+CI2 CI2 NI2   harm   107.1   585.8
+CT1 NI1 CI1   harm   125.6   585.8
+HA  CI2 NI2   harm   122.0   292.9
+NI1 CI1 HA    harm   122.0   292.9
+CI2 NI2 CT2   harm   125.6   585.8
+NI1 CI1 CI2   harm   107.1   585.8
+NI2 CT2 HC    harm   110.7   313.8
+NI1 CR  HA    harm   125.1   292.9
+NI2 CT2 CT3   harm   112.7   488.3
+NI1 CR  NI2   harm   109.8   585.8
+HA  CR  NI2   harm   125.1   292.9
+CR  NI2 CI2   harm   108.0   585.8
+CR  NI2 CT2   harm   126.4   585.8
+HC  CT7 NI1   harm   110.7   313.8
+NI1 CT7 HC    harm   110.7   313.8
+HC  CT7 HC    harm   107.8   276.1
+CT7 NI1 CI1   harm   125.6   585.8
+CT7 NI1 CR    harm   126.4   585.8
+
+HC  CT2 CT3   harm   110.7   313.8
+CT2 CT3 CT4   harm   112.7   488.3
+HC  CT3 CT4   harm   110.7   313.8
+CT3 CT4 HC    harm   110.7   313.8
+CT4 OY  CA2   harm   111.0   502.1
+HC  CT4 OY    harm   109.5   292.9
+OY  CA2 CA    harm   120.0   418.4
+
+CA2 CA  HA    harm   120.0   292.9
+CA  CA  CA    harm   120.0   527.2
+HA  CA  CA    harm   120.0   292.9
+CA  CT5 HC    harm   109.5   418.4
+CA  CA  CT5   harm   120.0   585.8
+HC  CT5 NT    harm   109.5   292.9
+CT5 NT  CT1   harm   107.2   433.5
+CT5 NT  CT6   harm   107.2   433.5
+NT  CT6 HC    harm   109.5   292.9
+NT  CT6 CT6   harm   109.5   470.3
+NT  CT1 CA1   harm   112.3   470.3
+NT  CT1 HC    harm   109.5   292.9
+HC  CT1 CA1   harm   109.5   418.4
+CT1 CA1 CA1   harm   120.0   585.8
+CA1 CA1 CA1   harm   120.0   527.2
+CA1 CA1 HA    harm   120.0   292.9
+
+HC  CT1 HC    harm   107.8   276.1
+CI1 NI1 CR    harm   108.0   585.8
+CI1 CI2 NI2   harm   107.1   585.8
+CI1 CI2 HA    harm   130.9   292.9
+HC  CT2 HC    harm   107.8   276.1
+CT2 CT3 HC    harm   110.7   313.8
+HC  CT3 HC    harm   107.8   276.1
+CT3 CT4 OY    harm   109.5   418.4
+HC  CT4 HC    harm   107.8   276.1
+CA  CA2 CA    harm   120.0   527.2
+CA  CT5 NT    harm   112.3   488.3
+NT  CT5 NT    harm   109.0   488.3
+CT1 NT  CT6   harm   107.2   433.5
+HC  CT6 HC    harm   107.8   276.1
+CA2 CA  CA    harm   120.0   527.2
+HC  CT6 CT6   harm   130.7   292.9
+CT6 CT6 HC    harm   130.7   292.9
+
+DIHEDRALS
+# i j   k   l    pot     v1        v2        v3        v4
+CT6   CT6    NT    CT5  opls   0.469    0.041    0.505    0.000
+HC   CT4    OY    CA2  opls   0.000    0.000    0.161    0.000
+CA   CA2    CA    HA  opls   0.000    7.250    0.000    0.000
+NI2   CT2    CT3    CT4  opls   -1.292    1.168    0.000    0.000
+HC   CT7    NI1    CI1  opls   0.000    0.000    0.000    0.000
+NT   CT6    CT6    HC  opls   0.000    0.000    0.300    0.000
+HC   CT5    NT    CT1  opls   0.000    0.000    0.560    0.000
+HC   CT6    NT    CT5  opls   0.000    0.000    0.560    0.000
+NI1   CI1    CI2    NI2  opls   0.000    10.750    0.000    0.000
+HA   CI1    CI2    HA  opls   0.000    7.250    0.000    0.000
+HC   CT6    CT6    NT  opls   0.000    0.000    0.300    0.000
+CR   NI1    CI1    CI2  opls   0.000    7.250    0.000    0.000
+CT1   NI1    CR    NI2  opls   0.000    7.250    0.000    0.000
+CI2   NI2    CT2    HC  opls   0.000    0.000    0.000    0.000
+CT7   NI1    CI1    HA  opls   0.000    7.250    0.000    0.000
+CI2   NI2    CR    NI1  opls   0.000    7.250    0.000    0.000
+HA   CA    CA    HA  opls   0.000    7.250    0.000    0.000
+CA2   CA    CA    CA  opls   0.000    7.250    0.000    0.000
+CT1   NI1    CR    HA  opls   0.000    7.250    0.000    0.000
+CT5   NT    CT6    CT6  opls   0.469    0.041    0.505    0.000
+HA   CI1    CI2    NI2  opls   0.000    10.750    0.000    0.000
+HC   CT1    NT    CT6  opls   0.000    0.000    0.560    0.000
+CA2   CA    CA    HA  opls   0.000    7.250    0.000    0.000
+CA   CA2    CA    CA  opls   0.000    7.250    0.000    0.000
+CA1   CA1    CA1    CT1  opls   0.000    7.250    0.000    0.000
+CA1   CA1    CA1    CA1  opls   0.000    7.250    0.000    0.000
+HC   CT6    CT6    HC  opls   0.000    0.000    0.300    0.000
+OY   CA2    CA    CA  opls   0.000    7.250    0.000    0.000
+NI1   CI1    CI2    HA  opls   0.000    10.750    0.000    0.000
+CR   NI1    CI1    HA  opls   0.000    7.250    0.000    0.000
+HA   CA1    CA1    CT1  opls   0.000    7.250    0.000    0.000
+HC   CT3    CT4    OY  opls   0.000    0.000    0.468    0.000
+HC   CT1    NT    CT5  opls   0.000    0.000    0.560    0.000
+HC   CT6    NT    CT1  opls   0.000    0.000    0.560    0.000
+HA   CA1    CA1    CA1  opls   0.000    7.250    0.000    0.000
+CT1   NT    CT6    HC  opls   0.000    0.000    0.560    0.000
+CA   CA    CA    CA  opls   0.000    7.250    0.000    0.000
+HC   CT1    NI1    CI1  opls   0.000    0.000    0.000    0.000
+CR   NI2    CT2    HC  opls   0.000    0.000    0.000    0.000
+CT2   NI2    CR    HA  opls   0.000    7.250    0.000    0.000
+CI1   NI1    CR    HA  opls   0.000    7.250    0.000    0.000
+CA   CA    CA    CT5  opls   0.000    7.250    0.000    0.000
+CI2   NI2    CT2    CT3  opls   2.205    0.033    0.782    0.000
+NI2   CT2    CT3    HC  opls   0.000    0.000    0.300    0.000
+CA   CT5    NT    CT6  opls   1.652    -0.642    2.040    0.000
+CA1   CA1    CT1    NT  opls   0.000    0.371    0.280    0.000
+CA   CA    CT5    NT  opls   0.000    0.371    0.280    0.000
+HC   CT7    NI1    CR  opls   0.000    0.000    0.000    0.000
+CT1   CA1    CA1    CA1  opls   0.000    7.250    0.000    0.000
+HA   CA    CA    CT5  opls   0.000    7.250    0.000    0.000
+NT   CT5    NT    CT6  opls   0.464    0.042    0.499    0.000
+CA1   CA1    CT1    HC  opls   0.000    0.000    0.000    0.000
+HA   CI2    NI2    CR  opls   0.000    7.250    0.000    0.000
+CA   CA    CA    CA2  opls   0.000    7.250    0.000    0.000
+CI1   CI2    NI2    CR  opls   0.000    7.250    0.000    0.000
+HC   CT1    CA1    CA1  opls   0.000    0.000    0.000    0.000
+CT1   NI1    CI1    CI2  opls   0.000    7.250    0.000    0.000
+CI1   CI2    NI2    CT2  opls   0.000    7.250    0.000    0.000
+CT5   CA    CA    CA  opls   0.000    7.250    0.000    0.000
+CT6   CT6    NT    CT1  opls   0.469    0.041    0.505    0.000
+CT7   NI1    CI1    CI2  opls   0.000    7.250    0.000    0.000
+CT2   CT3    CT4    HC  opls   0.000    0.000    0.300    0.000
+CI1   NI1    CR    NI2  opls   0.000    7.250    0.000    0.000
+NT   CT5    NT    CT1  opls   0.464    0.042    0.499    0.000
+CA1   CT1    NT    CT6  opls   1.652    -0.642    2.040    0.000
+CT5   NT    CT6    HC  opls   0.000    0.000    0.560    0.000
+CT1   NI1    CI1    HA  opls   0.000    7.250    0.000    0.000
+CT1   NT    CT6    CT6  opls   0.469    0.041    0.505    0.000
+HC   CT2    CT3    CT4  opls   0.000    0.000    0.300    0.000
+OY   CA2    CA    HA  opls   0.000    7.250    0.000    0.000
+CA   CT5    NT    CT1  opls   1.652    -0.642    2.040    0.000
+CT3   CT4    OY    CA2  opls   -0.657    -0.716    0.679    0.000
+NT   CT1    CA1    CA1  opls   0.000    0.371    0.280    0.000
+CA   CA    CA    HA  opls   0.000    7.250    0.000    0.000
+HA   CA    CA    CA  opls   0.000    7.250    0.000    0.000
+HC   CT1    NI1    CR  opls   0.000    0.000    0.000    0.000
+CT5   CA    CA    HA  opls   0.000    7.250    0.000    0.000
+CT2   NI2    CR    NI1  opls   0.000    7.250    0.000    0.000
+CT1   CA1    CA1    HA  opls   0.000    7.250    0.000    0.000
+NT   CT6    CT6    NT  opls   1.135    -0.151    0.400    0.000
+HA   CA    CA    CA2  opls   0.000    7.250    0.000    0.000
+CA1   CT1    NT    CT5  opls   1.652    -0.642    2.040    0.000
+CT7   NI1    CR    NI2  opls   0.000    7.250    0.000    0.000
+HC   CT5    NT    CT6  opls   0.000    0.000    0.560    0.000
+CA   CA    CT5    HC  opls   0.000    0.000    0.000    0.000
+CT7   NI1    CR    HA  opls   0.000    7.250    0.000    0.000
+CA1   CA1    CA1    HA  opls   0.000    7.250    0.000    0.000
+CT4   OY    CA2    CA  opls   0.000    3.916    0.000    0.000
+HC   CT3    CT4    HC  opls   0.000    0.000    0.300    0.000
+CI2   NI2    CR    HA  opls   0.000    7.250    0.000    0.000
+HA   CI2    NI2    CT2  opls   0.000    7.250    0.000    0.000
+HC   CT2    CT3    HC  opls   0.000    0.000    0.300    0.000
+CT2   CT3    CT4    OY  opls   1.255    -0.619    0.546    0.000
+CR   NI2    CT2    CT3  opls   2.205    0.033    0.782    0.000
+
+IMPROPER
+CA1   CA1    CA1    CT1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CT1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CT1   CA1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CA1    CA1    CT1  opls   0.000    8.000    0.000    0.000
+HA   CA1    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CT1   CA1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CT1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CA1    CA1    CT1  opls   0.000    8.000    0.000    0.000
+HA   CA1    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CT1   CA1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CT1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CA1    CA1    CT1  opls   0.000    8.000    0.000    0.000
+HA   CA1    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CT1   CA1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CA1   CT1    CA1    CA1  opls   0.000    8.000    0.000    0.000
+CA1   HA    CA1    CA1  opls   0.000    2.200    0.000    0.000
+CI1   CR    NI1    CT1  opls   0.000    8.000    0.000    0.000
+HA   CI2    CI1    NI1  opls   0.000    2.200    0.000    0.000
+HA   NI2    CI2    CI1  opls   0.000    2.200    0.000    0.000
+CT2   CR    NI2    CI2  opls   0.000    8.000    0.000    0.000
+CA   CA    CA2    OY  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   CT5    CA    CA  opls   0.000    8.000    0.000    0.000
+HA   CA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+NI2   HA    CR    NI1  opls   0.000    2.200    0.000    0.000
+CI1   CR    NI1    CT7  opls   0.000    8.000    0.000    0.000
+HA   CI2    CI1    NI1  opls   0.000    2.200    0.000    0.000
+NI2   HA    CI2    CI1  opls   0.000    2.200    0.000    0.000
+CR   CT2    NI2    CI2  opls   0.000    8.000    0.000    0.000
+CA   CA    CA2    OY  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   CT5    CA    CA  opls   0.000    8.000    0.000    0.000
+HA   CA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+NI2   HA    CR    NI1  opls   0.000    2.200    0.000    0.000
+CI1   CR    NI1    CT7  opls   0.000    8.000    0.000    0.000
+HA   CI2    CI1    NI1  opls   0.000    2.200    0.000    0.000
+HA   NI2    CI2    CI1  opls   0.000    2.200    0.000    0.000
+CT2   CR    NI2    CI2  opls   0.000    8.000    0.000    0.000
+CA   CA    CA2    OY  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   CT5    CA    CA  opls   0.000    8.000    0.000    0.000
+HA   CA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+NI2   HA    CR    NI1  opls   0.000    2.200    0.000    0.000
+CI1   CR    NI1    CT7  opls   0.000    8.000    0.000    0.000
+CI2   HA    CI1    NI1  opls   0.000    2.200    0.000    0.000
+NI2   HA    CI2    CI1  opls   0.000    2.200    0.000    0.000
+CT2   CR    NI2    CI2  opls   0.000    8.000    0.000    0.000
+CA   CA    CA2    OY  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   CT5    CA    CA  opls   0.000    8.000    0.000    0.000
+HA   CA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+NI2   HA    CR    NI1  opls   0.000    2.200    0.000    0.000
+CR   CI1    NI1    CT7  opls   0.000    8.000    0.000    0.000
+CI2   HA    CI1    NI1  opls   0.000    2.200    0.000    0.000
+NI2   HA    CI2    CI1  opls   0.000    2.200    0.000    0.000
+CT2   CR    NI2    CI2  opls   0.000    8.000    0.000    0.000
+CA   CA    CA2    OY  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+HA   CA    CA    CA  opls   0.000    2.200    0.000    0.000
+CT5   CA    CA    CA  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+NI2   HA    CR    NI1  opls   0.000    2.200    0.000    0.000
+CR   CI1    NI1    CT7  opls   0.000    8.000    0.000    0.000
+CI2   HA    CI1    NI1  opls   0.000    2.200    0.000    0.000
+HA   NI2    CI2    CI1  opls   0.000    2.200    0.000    0.000
+CT2   CR    NI2    CI2  opls   0.000    8.000    0.000    0.000
+CA   CA    CA2    OY  opls   0.000    8.000    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   CT5    CA    CA  opls   0.000    8.000    0.000    0.000
+HA   CA    CA    CA  opls   0.000    2.200    0.000    0.000
+CA   HA    CA    CA2  opls   0.000    2.200    0.000    0.000
+NI2   HA    CR    NI1  opls   0.000    2.200    0.000    0.000
+

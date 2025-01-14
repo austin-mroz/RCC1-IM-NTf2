@@ -1,0 +1,9 @@
+# created by fftool
+tolerance 2.5
+filetype xyz
+output simbox.xyz
+
+structure re_transformed_pack.xyz
+  number 1
+  inside box 1.5000 1.5000 1.5000 31.5000 31.5000 31.5000
+end structure
